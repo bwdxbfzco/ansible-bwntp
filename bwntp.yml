@@ -2,7 +2,7 @@
 # tasks file for bwntp
  - name: Configure NTP on CentOS/RHEL/Debian System
    become: true
-   hosts: ubuntu1
+   hosts: all
    roles:
     - geerlingguy.ntp
    
