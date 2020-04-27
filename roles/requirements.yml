@@ -1,0 +1,4 @@
+---
+roles:
+  # install openstack volume role from Galaxy
+  - name: geerlingguy.ntp
